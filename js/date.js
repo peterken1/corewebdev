@@ -39,4 +39,5 @@ const daynames = [
   } catch (e) {
     alert('Error with code or your browser does not support Locale');
   }
-   
+ {document.querySelector("#copyrightyear").textcontent = new Date().getFullYear();;
+}
